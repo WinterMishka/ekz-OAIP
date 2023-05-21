@@ -1,0 +1,15 @@
+//3 задание
+#include <iostream>
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	int a, b;
+	cin >> a >> b;
+
+	cout << (a + b) / 2 << endl;
+	cout << sqrt(a * b) << endl;
+
+}
