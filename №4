@@ -1,0 +1,20 @@
+#include <iostream>
+
+//4 задание
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	int a, b;
+	cin >> a >> b;
+
+	if (a > b) {
+		cout << a;
+	}
+	else {
+		cout << b;
+	}
+}
