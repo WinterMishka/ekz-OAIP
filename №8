@@ -1,0 +1,22 @@
+#include <iostream>
+
+//8 задание
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	int minyta = 25;
+	int kolvo;
+	int den;
+	cin >> kolvo >> den;
+
+	if (den >= 6) {
+		cout << (kolvo * minyta) * 0.8;
+	}
+	else {
+		cout << kolvo * minyta;
+	}
+}
