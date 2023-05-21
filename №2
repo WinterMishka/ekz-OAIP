@@ -1,0 +1,47 @@
+#include <iostream>
+#define _USE_MATH_DEFINES
+#include <math.h>
+
+//2 задание
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	double pi = M_PI;
+	float l, s;
+	int R;
+
+	cin >> R;
+
+	l = 2 * pi * R;
+	s = pi * R;
+
+	cout << l << "\n" << s;
+}
+
+ИЛИ
+
+#include <iostream>
+
+//2 задание
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	double pi = 3.14;
+	float l, s;
+	int R;
+
+	cin >> R;
+
+	l = 2 * pi * R;
+	s = pi * R;
+
+	cout << l << "\n" << s;
+}
