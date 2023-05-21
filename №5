@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	int a;
+	cin >> a;
+
+	if (a % 2 == 0) {
+		cout << "+";
+	}
+}
