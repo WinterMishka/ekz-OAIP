@@ -1,0 +1,14 @@
+//1 задание
+#incldue <iostream>
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	float funt = 1.487, frank = 0.172, marka = 0.584, uena = 0.00955;
+	float dollar;
+
+	cin >> dollar;
+	cout << dollar * funt << "\n" << dollar * frank << "\n" << dollar * marka << "\n" << dollar * uena << endl;
+}
