@@ -1,0 +1,22 @@
+#include <iostream>
+
+//6 задание
+
+int main() {
+
+	using namespace std;
+
+	setlocale(0, "Rus");
+
+	int y, x;
+
+	cin >> x;
+
+	if (x > 3) {
+		y = pow(x, 2) + 5;
+	}
+	if (x <= 3) {
+		y = x - 8;
+	}
+	cout << y;
+}
