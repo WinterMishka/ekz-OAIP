@@ -1,0 +1,30 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+	int nadbavka;
+	cin >> nadbavka;
+	switch (nadbavka) {
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+		cout << "Ваша надбавка 10 %";
+		break;
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+		cout << "Ваша надбавка 15 %";
+		break;
+	}
+	if (nadbavka >= 15) {
+		cout << "Ваша надбавка 20 %";
+	}
+	return 0;
+}
