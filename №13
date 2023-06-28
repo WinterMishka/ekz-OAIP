@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int n = 0;
+	for (int i = 2; i < 57; i++) {
+		if (i % 5 == 0) {
+			n += i;
+		}
+	}
+	cout << n;
+	return 0;
+}
